@@ -1,0 +1,6 @@
+/* Mobile Version 375px */
+@media (max-width: 24em) {
+  .card {
+    padding-top: 1.5rem;
+  }
+}
