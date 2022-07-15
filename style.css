@@ -52,13 +52,16 @@ body {
   flex-direction: column;
   gap: 1.6rem;
   align-items: center;
+
+  padding-top: 1rem;
 }
 
 .card-text {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  /* align-items: center; */
+  align-items: center;
+  text-align: center;
 }
 
 .card-img {
