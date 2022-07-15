@@ -1,0 +1,86 @@
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 400;
+  height: 100vh;
+  background-color: #d6e2f0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+
+.card {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  width: 32rem;
+  height: 49.7rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: center;
+
+  padding-top: 1rem;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img {
+  width: 28.8rem;
+  height: 28.8rem;
+  border-radius: 1rem;
+}
+
+.main-par {
+  color: #1f3251;
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 28.8rem;
+}
+
+.sub-p {
+  color: #7b879d;
+  font-size: 1.5rem;
+  width: 25.6rem;
+}
