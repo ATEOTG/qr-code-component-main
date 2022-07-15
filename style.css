@@ -29,15 +29,17 @@ html {
 }
 
 body {
-  width: 144rem;
   font-weight: 400;
+  height: 100vh;
   background-color: #d6e2f0;
   font-family: "Outfit", sans-serif;
 }
 
 .container {
+  height: inherit;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Card */
